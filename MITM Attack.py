@@ -59,6 +59,6 @@ try:
 
         time.sleep(3)
 except KeyboardInterrupt:                
-    print("\nQuit & Reset")
+    print("\nQuit & Reset !")
     reset_system(user_target_ip,user_gateway_ip)
     reset_system(user_gateway_ip,user_target_ip)
